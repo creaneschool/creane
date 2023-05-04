@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creane Memorial High School - Notes/Classwork</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  <style type="text/css">
+    body{
+/*      background-image: url("download.jpg");*/
+/*      background-repeat: no-repeat;*/
+/*      border-image-width: 200px;*/
+    }
+   .motivation-box {
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  font-family: cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.motivation-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.motivation-box p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .motivation-box {
+    font-size: 20px;
+  }
+}
+
+  </style>
+  </head>
+  <body bgcolor="#f5fba4">
+    <h1><u>Creane Memorial High School</u></h1>
+   
+    <div class="container">
+      <h1>Class 9 - Get Notes/Classwork</h1>
+      <form>
+        
+        <label for="subject">Select a subject:</label>
+        <select id="subject">
+          <option value="Subject"> --Select Subject--</option>
+          <option value="maths">Maths</option>
+          <option value="science">Science</option>
+          <option value="english">English [Beehive]</option>
+          <option value="hindi">Hindi</option>
+          <option value="ai">Artifical Intelegence</option>
+          <option value="social">Social</option>
+        </select>
+        </br>
+        <label for="chapter">Select a chapter:</label>
+<select id="chapter">
+  <option value="Chapter">--Select Chapter--</option>
+</select>
+
+        <button type="button" onclick="getNotes()" id="notesButton"> Get Notes/Classwork</button>
+      </form>
+      <!-- <div id="notes"></div> -->
+    </div>
+  <!-- 
+    <div class="motivation-box">
+  <p>Classwork is not just an obligation, it's an opportunity to shape your future. Embrace the challenge, push yourself to learn and grow, and watch as your hard work pays off in ways you never thought possible.</p>
+</div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
