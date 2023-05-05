@@ -8,7 +8,7 @@
 <body>
 	<canvas id="pdf-viewer"></canvas>
 	<script>
-		var pdfUrl = "C:\User\demo\Desktop\sqrt.pdf";
+		var pdfUrl = "git.pdf";
 		pdfjsLib.getDocument(pdfUrl).promise.then(function(pdf) {
 		    pdf.getPage(1).then(function(page) {
 		        var canvas = document.getElementById("pdf-viewer");
