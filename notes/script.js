@@ -271,7 +271,10 @@ document.addEventListener("DOMContentLoaded", function() {
     else if(selectedSubject === 'maths' && selectedChapter === 'math_chapter14'){
       window.open('math_chapter14.pdf');
     }
-    
+    // Hindi 
+     else if(selectedSubject === 'hindi' && selectedChapter === 'hin_chapter1'){
+      window.open('hin_chapter1.pdf');
+    }
   }
   subjectSelect.addEventListener("change", updateChapterOptions);
 
