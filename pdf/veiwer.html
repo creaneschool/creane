@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My PDF Viewer</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+</head>
+<body>
+	<canvas id="pdf-viewer"></canvas>
+	<script>
+		var pdfUrl = "C:\User\demo\Desktop\sqrt.pdf";
+		pdfjsLib.getDocument(pdfUrl).promise.then(function(pdf) {
+		    pdf.getPage(1).then(function(page) {
+		        var canvas = document.getElementById("pdf-viewer");
+		        var viewport = page.getViewport({ scale: 1 });
+		        canvas.height = viewport.height;
+		        canvas.width = viewport.width;
+		        page.render({ canvasContext: canvas.getContext("2d"), viewport: viewport });
+		    });
+		});
+	</script>
+</body>
+</html>
