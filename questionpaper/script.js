@@ -1,12 +1,12 @@
 function pw(){
-	window.open("pw.pdf")
+	window.open("development.html")
 }
 function iit(){
-	window.open("iit.pdf")
+	window.open("development.html")
 }
 function cbse(){
-	window.open("cbse.pdf")
+	window.open("development.html")
 }
 function byjus(){
-	window.open("byjus.pdf")
+	window.open("development.html")
 }
