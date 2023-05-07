@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const selectedChapter = chapterSelect.value;
     const selectedSubject = subjectSelect.value;
     if(selectedSubject === 'ai' && selectedChapter === 'ai_chapter1'){
-      window.open('Intro_to_ai.pdf');
+      window.open('ai_chapter1.pdf');
     }
     else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter1'){
       window.open('eng_chapter1.pdf');
