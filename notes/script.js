@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
       window.open('ai_chapter1.pdf');
     }
     else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter1'){
-      window.open('https://drive.google.com/file/d/1fNrdJkMWXPsRNL0lpuBYwiYO_OFH1JwW/view?usp=preview');
+      window.open('https://drive.google.com/file/d/1fNrdJkMWXPsRNL0lpuBYwiYO_OFH1JwW/preview');
     }
      else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter2'){
       window.open('eng_chapter2.pdf');
