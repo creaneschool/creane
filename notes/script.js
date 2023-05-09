@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
       window.open('ai_chapter1.pdf');
     }
     else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter1'){
-      window.open('https://doc-00-0o-prod-01-apps-viewer.googleusercontent.com/viewer2/prod-01/pdf/kb6bebodao93lkp7ostbguc1hkiicg5r/onu542fq6iot5go778cljn0301n3km0q/1683630000000/3/100460443268837014467/APznzaaE-XsiO3TgOBkXH3khExJki5a6Y0NAVRAwP2Cl2JhUizwk3M3V239PV5uUs2JYc1dCwoMpRCViMI88rA7B8O8Oo7Fe8IetzDX-SD7MlciJJWqqpi21mDonRRembGkFPL29Nsfcl_4Gv12uhN9BUXZHkVn2tat_JHR0IwfmIUDmMBA77D3TvrSTNhIySdFNbSbZwsFXWiXoeSpqNTj98vWviU4rQ4KPbaYXMAOMw_cr374ZFIiviPBQuP7QLX_QROz50x6Yve3gR6wcfEK3UXEf5z2p0VpOSoz5s5D3tfdwhCj8Ej0dZtQntAnSZh8PCfSeTKfyNRJHVih-m5d8llPie5MmVWvmrFvMT0gyrVLNYaheK1v5XIlz6VZxef7TstqtgwhEbCl_3o7H4vcI1SFY7zcDug==?authuser=0&nonce=mpm8tkc9jtfk2&user=100460443268837014467&hash=7o8rb77chf3l16n2dao6mkig4i2h4p9a');
+      window.open('https://drive.google.com/file/d/1fNrdJkMWXPsRNL0lpuBYwiYO_OFH1JwW/view?usp=preview');
     }
      else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter2'){
       window.open('eng_chapter2.pdf');
