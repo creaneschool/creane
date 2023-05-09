@@ -64,6 +64,10 @@ document.addEventListener("DOMContentLoaded", function() {
       chapterSelect.innerHTML = `
         <option value="Chapter">--Select Chapter--</option>        
         <option value="hin_chapter1">01 - दो बैलों की कथा</option>
+        <option value="hin_chapter1">02 - ल्हासा की ओरा</option>
+        <option value="hin_chapter1">03 - उपभोक्तावाद की संस्कृति </option>
+        <option value="hin_chapter1">04 - साँवले सपनों की याद</option>
+        <option value="hin_chapter1">05 - नाना साहब की पुत्री देवी मैना को भस्म कर दिया गयाा</option>
       `;
     } 
     else if (selectedSubject === "english") {
