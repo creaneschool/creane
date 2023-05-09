@@ -5,7 +5,7 @@ function homeWork(){
 	window.open("homework/homework.html")
 }
 function syllabus(){
-	window.open("questionpaper/development.html")
+	window.location.href = "syllabus/syllabus.html"
 }
 function question(){
 	window.open("questionpaper/questionpaper.html")
