@@ -31,35 +31,8 @@
       <!-- <div id="notes"></div> -->
     </div>
     <script>
-  const subjectSelect = document.querySelector("#subject");
-  const selectedSubject = subjectSelect.value;
-  console.log(selectedSubject);
-
- function getSyllabus()
- {
-  const subjectSelect = document.querySelector("#subject");
-  const selectedSubject = subjectSelect.value;
-  if (selectedSubject == 'maths')
-   {
-    window.location.href = 'maths_syllabus.pdf';
-  } else if (selectedSubject == 'hindi')
-   {
-    window.location.href = 'hindi_syllabus.pdf';
-  } else if (selectedSubject == 'english')
-   {
-    window.location.href = 'english_syllabus.pdf';
-  } else if (selectedSubject == 'ai') 
-  {
-    window.location.href = 'ai_syllabus.pdf';
-  }
-  else if (selectedSubject == 'social') 
-  {
-    window.location.href = 'social_syllabus.pdf';
-  }
-  else if (selectedSubject == 'science') 
-  {
-    window.location.href = 'science_syllabus.pdf';
-  }
+function getSyllabus(){
+window.open('syllabus.pdf')
 }
 </script>
 </body>
