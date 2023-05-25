@@ -26,7 +26,7 @@
           <option value="ai">Artifical Intelligence</option>
           <option value="social">Social</option>
         </select>
-<button type="button" onclick="getSyllabus()" id="syllabus">Get Project</button>
+<button type="button" onclick="getProject()" id="syllabus">Get Project</button>
       </form>
       <!-- <div id="notes"></div> -->
     </div>
@@ -35,30 +35,30 @@
   const selectedSubject = subjectSelect.value;
   console.log(selectedSubject);
 
- function getSyllabus()
+ function getProject()
  {
   const subjectSelect = document.querySelector("#subject");
   const selectedSubject = subjectSelect.value;
   if (selectedSubject == 'maths')
    {
-    window.location.href = 'maths_syllabus.pdf';
+    window.location.href = 'maths_project.pdf';
   } else if (selectedSubject == 'hindi')
    {
-    window.location.href = 'hindi_syllabus.pdf';
+    window.location.href = 'hindi_project.pdf';
   } else if (selectedSubject == 'english')
    {
-    window.location.href = 'english_syllabus.pdf';
+    window.location.href = 'english_project.pdf';
   } else if (selectedSubject == 'ai') 
   {
-    window.location.href = 'ai_syllabus.pdf';
+    window.location.href = 'ai_project.pdf';
   }
   else if (selectedSubject == 'social') 
   {
-    window.location.href = 'social_syllabus.pdf';
+    window.location.href = 'social_project.pdf';
   }
   else if (selectedSubject == 'science') 
   {
-    window.location.href = 'science_syllabus.pdf';
+    window.location.href = 'science_project.pdf';
   }
 }
 </script>
