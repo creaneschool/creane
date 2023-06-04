@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
       window.open('https://drive.google.com/file/d/1fNrdJkMWXPsRNL0lpuBYwiYO_OFH1JwW/preview');
     }
      else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter2'){
-      window.open('eng_chapter2.pdf');
+      window.open('https://drive.google.com/file/d/1kF_jWZENyIo4MwgjJn8NrWfognjcM7ZT/preview');
     }
     else if(selectedSubject === 'english' && selectedChapter === 'eng_chapter3'){
       window.open('eng_chapter3.pdf');
