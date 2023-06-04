@@ -32,19 +32,15 @@
       <!-- <div id="notes"></div> -->
     </div>
     <center>
-    <a href="txt_to_write/index.html" style="color:white; background-color: black;">
-      <b>
-        <span>
-    Make my HomeWork
-  </span>
-  </b>
-  </a>
-  </center>
+<button type="button" onclick="getWrite()" style="padding: 8; margin: 0;" id="syllabus">Make my Assingment</button>
+</center>
     <script>
   const subjectSelect = document.querySelector("#subject");
   const selectedSubject = subjectSelect.value;
   console.log(selectedSubject);
-
+function getWrite(){
+  window.open("txt_to_write/index.html")
+}
  function getProject()
  {
   const subjectSelect = document.querySelector("#subject");
