@@ -1,4 +1,5 @@
 Creane Memorial High School Website
+
 Table of Contents
 Introduction
 Features
@@ -22,7 +23,7 @@ To benefit from the wealth of resources available on our website, follow these s
 Clone the Repository: Use the following command to clone the repository to your local machine:
 bash
 Copy code
-git clone https://github.com/your-username/creane-memorial-high-school.git
+git clone https://github.com/creaneschool/creane.git
 Web Browser Compatibility: Ensure that you have a compatible web browser installed on your device to enjoy optimal browsing experience.
 Usage
 Unlock the full potential of our website with these steps:
