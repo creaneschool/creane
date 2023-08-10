@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creane Memorial High School - Notes/Classwork</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="creane-logo.png" rel="icon">
+    
+  </head>
+  <body bgcolor="#008374">
+    <h1><u>CREANE MEMORIAL HIGH SCHOOL</u></h1>
+   
+    <div class="container">
+      <h1>Class 9 - Get Exam Papers</h1>
+      <form>
+        
+        <label for="subject">Select a subject:</label>
+        <select id="subject">
+          <option value="Subject"> --Select Subject--</option>
+          <option value="maths">Maths - Olympiad</option>
+          <option value="science">Science Olympiad</option>
+          <!-- <option value="english">English - Olympiad</option> -->
+          <!-- <option value="hindi">Hindi</option> -->
+          <option value="ai">Cyber - Olympiad</option>
+          <!-- <option value="social">Social</option> -->
+        </select>
+<button type="button" onclick="getPaper()" id="syllabus">Get Paper</button>
+      </form>
+      <!-- <div id="notes"></div> -->
+    </div>
+    <center>
+<!-- <button type="button" onclick="getWrite()" style="padding: 8; margin: 0;" id="syllabus">Make my Assingment</button> -->
+</center>
+    <script>
+  const subjectSelect = document.querySelector("#subject");
+  const selectedSubject = subjectSelect.value;
+  console.log(selectedSubject);
+ function getProject()
+ {
+  const subjectSelect = document.querySelector("#subject");
+  const selectedSubject = subjectSelect.value;
+  if (selectedSubject == 'maths')
+   {
+    window.location.href = '';
+  } else if (selectedSubject == 'english')
+   {
+    window.location.href = '';
+  } else if (selectedSubject == 'ai') 
+  {
+    window.location.href = '';
+  }
+  else if (selectedSubject == 'social') 
+  {
+    window.location.href = 'social_project.pdf';
+  }
+  else if (selectedSubject == 'science') 
+  {
+    window.location.href = 'science_project.pdf';
+  }
+}
+</script>
+</body>
+</html>
